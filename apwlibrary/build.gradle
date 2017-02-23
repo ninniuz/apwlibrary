@@ -1,5 +1,5 @@
 group = 'crl.android.pdfwriter'
-version = '1.0.1'
+version = '1.0.2'
 
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
@@ -11,10 +11,10 @@ android {
 
 
     defaultConfig {
-        versionCode 1
-        versionName '1.0'
+        versionCode 3
+        versionName '1.0.2'
 
-        minSdkVersion 9
+        minSdkVersion 4
 
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
     }
